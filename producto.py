@@ -1,0 +1,130 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOxnWTD80UIZBlOX5bDp2FR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/carlos608810/ahorcado/blob/main/producto.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "id": "4YYkew4zFWcV",
+        "outputId": "859c8cf0-d8c3-481b-b667-a9b8e627edf1",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 599
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese la información del producto:\n",
+            "Nombre: bebida\n",
+            "Precio: 1500\n",
+            "Descripción: coca cola\n",
+            "Stock: 20\n",
+            "Categoría: refresco\n",
+            "Información del producto ingresada correctamente.\n",
+            "\n",
+            "Información del Producto:\n",
+            "Nombre: bebida\n",
+            "Precio: $1500.00\n",
+            "Descripción: coca cola\n",
+            "Stock: 20 unidades\n",
+            "Categoría: refresco\n",
+            "Ingrese la información del producto:\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-7-c28cd334ecb0>\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     46\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     47\u001b[0m \u001b[0mproducto2\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mProducto\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 48\u001b[0;31m \u001b[0mproducto2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mingresar_datos\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     49\u001b[0m \u001b[0mproducto2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mmostrar_informacion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-7-c28cd334ecb0>\u001b[0m in \u001b[0;36mingresar_datos\u001b[0;34m(self)\u001b[0m\n\u001b[1;32m      9\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mingresar_datos\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Ingrese la información del producto:\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 11\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mnombre\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Nombre: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     12\u001b[0m         \u001b[0;32mwhile\u001b[0m \u001b[0;32mTrue\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     13\u001b[0m             \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.11/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.11/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ],
+      "source": [
+        "class Producto:\n",
+        "    def __init__(self):\n",
+        "        self.nombre = \"\"\n",
+        "        self.precio = 0.0\n",
+        "        self.descripcion = \"\"\n",
+        "        self.stock = 0\n",
+        "        self.categoria = \"\"\n",
+        "\n",
+        "    def ingresar_datos(self):\n",
+        "        print(\"Ingrese la información del producto:\")\n",
+        "        self.nombre = input(\"Nombre: \")\n",
+        "        while True:\n",
+        "            try:\n",
+        "                self.precio = float(input(\"Precio: \"))\n",
+        "                if self.precio >= 0:\n",
+        "                    break\n",
+        "                else:\n",
+        "                    print(\"El precio debe ser un número positivo.\")\n",
+        "            except ValueError:\n",
+        "                print(\"Por favor, ingrese un número válido para el precio.\")\n",
+        "        self.descripcion = input(\"Descripción: \")\n",
+        "        while True:\n",
+        "            try:\n",
+        "                self.stock = int(input(\"Stock: \"))\n",
+        "                if self.stock >= 0:\n",
+        "                    break\n",
+        "                else:\n",
+        "                    print(\"El stock debe ser un número entero no negativo.\")\n",
+        "            except ValueError:\n",
+        "                print(\"Por favor, ingrese un número entero válido para el stock.\")\n",
+        "        self.categoria = input(\"Categoría: \")\n",
+        "        print(\"Información del producto ingresada correctamente.\\n\")\n",
+        "\n",
+        "    def mostrar_informacion(self):\n",
+        "        print(\"Información del Producto:\")\n",
+        "        print(f\"Nombre: {self.nombre}\")\n",
+        "        print(f\"Precio: ${self.precio:.2f}\")\n",
+        "        print(f\"Descripción: {self.descripcion}\")\n",
+        "        print(f\"Stock: {self.stock} unidades\")\n",
+        "        print(f\"Categoría: {self.categoria}\")\n",
+        "\n",
+        "\n",
+        "producto1 = Producto()\n",
+        "producto1.ingresar_datos()\n",
+        "producto1.mostrar_informacion()\n",
+        "\n",
+        "producto2 = Producto()\n",
+        "producto2.ingresar_datos()\n",
+        "producto2.mostrar_informacion()"
+      ]
+    }
+  ]
+}
